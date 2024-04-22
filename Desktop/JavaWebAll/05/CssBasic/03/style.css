@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+body {
+	font-family:  BIZ UDPゴシック;
+	background-color:  #98fb98;
+    text-align:  center;
+}
+
+h1 {
+	font-size:  32px;
+    color:  green;
+}
+
+h2 {
+	font-size:  28px;
+    color:  white;
+}
+
+#first {						/* ID セレクタ */
+    background-color: green;
+}
+
+.std {							/* クラスセレクタ */
+    background-color: olive;
+}
+
+table {
+	border: 1px solid green;
+	border-collapse: collapse; 	/* 境界線を共有 */
+	width: 80%; 				/* テーブル横幅 */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th {
+	border: 1px solid green;
+    height: 32px;
+    text-align:center;
+    background-color: #3cb371;
+}
+
+td {
+	border: 1px solid green;
+	height: 24px;
+	text-align: center;
+    background-color: #eee8aa;
+}
+
+hr {
+	border: 1px solid green;
+}
+
+p {
+	border: 1px solid green;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}

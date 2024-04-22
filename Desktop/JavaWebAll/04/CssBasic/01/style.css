@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+	background-color: #98fb98;
+}
+
+h1 {
+    color: green
+}
+
+h2 {
+	background-color: green;
+    color: white;
+}
